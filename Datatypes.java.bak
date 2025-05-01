@@ -9,7 +9,8 @@ class Datatypes
 		int id=scan.nextInt();
 		
 		System.out.print("Grade : ");
-		 char grade=scan.nextLine().charAt(1);
+		scan.nextLine();
+		 char grade=scan.nextLine().charAt(0);
 	
 	}
 }
